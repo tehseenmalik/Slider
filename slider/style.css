@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'blaksword';
+    src: url(/assets/blacksword/Blacksword.otf);
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(/assets/Fonts/fa-regular-400.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+#visualCard {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    position: relative;
+    padding: 60px 188px;
+}
+
+#dots-sq-vis {
+    position: absolute;
+    right: 0;
+    bottom: -28px;
+    width: 150px;
+    z-index: 5;
+}
+
+
+.visaul-right {
+    overflow: hidden;
+    overflow-x: auto;
+    z-index: 11;
+
+}
+
+.visaul-right::-webkit-scrollbar {
+    scroll-behavior: auto;
+}
+
+.testimoial-1 {
+    background: white;
+    padding: 12px 0px;
+    margin: 5px 5px;
+    box-shadow: 1px 1px 8px -2px rgb(30 125 169 / 75%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.vis-cards-container {
+    display: flex;
+}
+
+.vis-card {
+    width: 190px;
+    height: 340px;
+    flex-shrink: 0;
+}
+
+.testimonial-heading h5 {
+    color: #1e7da9;
+    border-left: 4px solid #1e7da9;
+    padding: 10px;
+}
+
+.testimonial-heading p {
+    padding: 5px 12px;
+    font-size: 10px;
+    color: #7a7a7a;
+}
+
+.client-dtl {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 12px;
+    height: 75px;
+
+}
+
+.client-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #1e7da9;
+}
+
+.client-dtl-con h5 {
+    margin: 0;
+    color: #1e7da9;
+    font-weight: 670;
+    font-size: 11px;
+}
+
+.client-dtl-con p {
+    margin: 0;
+    font-size: 10px;
+    color: #000;
+    line-height: 16px;
+}
+
+.client-dtl-con span {
+    color: #2D2D2F;
+    font-size: 8px;
+    font-weight: normal;
+}
+
+.scholdtl {
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    line-height: 13px;
+    display: block;
+}
+
+
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+    /* background-color: #1e7da9; */
+}
+
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styling individual dot */
+.owl-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #999;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+/* Active dot styling */
+.owl-dot.active {
+    background-color: black;
+}
